@@ -1,0 +1,22 @@
+def ordena (a)
+
+	i=0
+
+while (i<a.size+1)
+
+	if (a[i]>a[i+1])
+		aux=a[i]
+		a[i]=a[i+1]
+		a[i+1]=aux
+		i=i+1
+	end
+   
+ end
+ 
+end
+
+	a = [20,0,50,30,34,33,35,22,1]
+
+	ordena (a)
+
+	puts a
