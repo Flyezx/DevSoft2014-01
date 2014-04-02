@@ -1,0 +1,22 @@
+Filipe Gentil Faria Arena
+
+Classe: empresa
+Atributos: nome, saldo, localiza, motorista
+Métodos: recebe_pagamento, paga_salario
+
+Classe: motorista
+Atributos: nome, placa, salario
+Métodos: entrega, recebe
+
+Classe: cliente
+Atributos: nome, num_id
+Métodos: recebe, num_rastreamento, paga
+
+Classe: veiculo_transporte 
+Atributos: quantidade_carga, rastreamento
+Métodos: retira_carga, deposita_carga
+
+Classe: carga
+Atributos: peso, volume, rastreamento, valor
+Métodos: carrega, descarrega
+
